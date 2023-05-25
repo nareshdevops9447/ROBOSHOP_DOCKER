@@ -7,7 +7,7 @@ WORKDIR /opt/server/
 COPY package.json /opt/server/
 
 # npm will install all the dependencies of node js project
-RUN npn install
+RUN npm install
 
 COPY server.js /opt/server/
 
